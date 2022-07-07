@@ -1,16 +1,19 @@
-# flutter_tdd
 
-A new Flutter project.
+# Flutter Test Driven Development: flutter_tdd
 
-## Getting Started
+Testing in flutter consists of three types: 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Test Types
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Unit Testing
+- Widget Testing
+- Integration Testing
+
+To verify the add and delete operations, we perform unit tests.
+Tests of widgets on is taking by budget test, 
+Using integration tests, the UI and performance of the entire application is tested.
+
+
+![Logo](https://codelabs.developers.google.com/static/codelabs/flutter-app-testing/img/d8d907c14b0adf97.gif)
