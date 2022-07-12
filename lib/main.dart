@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class TestingApp extends StatelessWidget {
   @override
+class TestingApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<Favorites>(
       create: (context) => Favorites(),
